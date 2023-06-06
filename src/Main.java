@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to Rock Paper Scissors!");
-        System.out.print("Please enter your name: ");
+        System.out.print("Please enter your name:  ");
         String name = scanner.nextLine();
 
         Player player1 = new Player(name);
