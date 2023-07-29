@@ -12,7 +12,7 @@ public class Main {
         Player player2 = new Player("Computer");
 
         while (true) {
-            System.out.print(player1.getName() + ", please enter your move (rock, paper or scissors) : ");
+            System.out.print(player1.getName() + ", please enter your move  (rock, paper or scissors) : ");
             String move1 = scanner.nextLine();
 
             player1.makeMove(move1);
